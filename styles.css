@@ -1,0 +1,46 @@
+
+.film{
+  list-style-type: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 500px;
+  margin-bottom: 5px;
+}
+
+.rating_container{
+  float:right;
+  transform: rotateY(180deg);
+}
+
+
+.rating_container > *:hover,
+.rating_container > *:hover ~ .rating_star {
+  color: yellow;
+  cursor: pointer;
+}
+
+.selected{
+  color: yellow;
+}
+
+.add-film__input_title, .add-film__input_year, .add-film__button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.add-film__input_title {
+  margin-left: 40px;
+  min-width: 350px;
+}
+
+.add-film__input_year {
+  width: 80px;
+}
+
+.add-film__button {
+  width: 50px;
+}
+
